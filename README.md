@@ -15,7 +15,7 @@ This code repository covers:
 
 - [PCcheck](https://github.com/eth-easl/pccheck)
 - [DataStates-LLM](https://github.com/DataStates/datastates-llm)
-- [Gemini](https://github.com/DAC26-AsymCheck/AsymCheck/tree/main/gemini)
+- [Gemini](https://github.com/zqming-cs/AsymCheck/tree/main/gemini)
 - [CheckFreq](https://github.com/msr-fiddle/CheckFreq)
 - [EXcp](https://github.com/Gaffey/ExCP)
 
@@ -53,7 +53,7 @@ The system architecture of **AsymCheck** is as follows:
 
 ## **Get the code**
 ``` shell
-git clone https://github.com/DAC26-AsymCheck/AsymCheck
+git clone https://github.com/zqming-cs/AsymCheck
 cd AsymCheck
 pip install -r requirements.txt
 python setup.py
@@ -99,7 +99,7 @@ AsymCheck: Asymmetric Partitioned Checkpointing for Efficient Large Language Mod
 
 If you are using this repository for your paper, please cite our work
 ```
-@inproceedings{ming2026SSFusion,
+@inproceedings{ming2026asymcheck,
   title={AsymCheck: Asymmetric Partitioned Checkpointing for Efficient Large Language Model Training},
   author={Zhangqiang Ming and Yuchong Hu and Zhiyuan Luo and Patrick P.C. Lee and Yuanhao Shu and Wenxiang Zhou and Xinjue Zheng and Dan Feng},
   booktitle={Proceedings of the 63dr Design Automation Conference (DAC2026)},
