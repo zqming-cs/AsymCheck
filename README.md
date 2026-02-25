@@ -92,6 +92,24 @@ bash run_clm_no_trainer_bloom_ds_asym.sh
 
 
 
+
+## **Papers**
+
+AsymCheck: Asymmetric Partitioned Checkpointing for Efficient Large Language Model Training
+
+If you are using this repository for your paper, please cite our work
+```
+@inproceedings{ming2026SSFusion,
+  title={AsymCheck: Asymmetric Partitioned Checkpointing for Efficient Large Language Model Training},
+  author={Zhangqiang Ming and Yuchong Hu and Zhiyuan Luo and Patrick P.C. Lee and Yuanhao Shu and Wenxiang Zhou and Xinjue Zheng and Dan Feng},
+  booktitle={Proceedings of the 63dr Design Automation Conference (DAC2026)},
+  url={https://doi.org/10.1145/xxxx.xxxx}
+  year={2026}
+}
+```
+
+
+
 ## **Referred Datasets**
 
 - Wikitex-103/2: [https://huggingface.co/datasets/wikitext](https://huggingface.co/datasets/wikitext)
