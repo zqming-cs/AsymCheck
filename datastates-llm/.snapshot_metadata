@@ -1,0 +1,167 @@
+{
+  "version": "0.1.0",
+  "world_size": 1,
+  "manifest": {
+    "0/rng_state": {
+      "type": "dict",
+      "keys": [
+        "rng_state"
+      ]
+    },
+    "0/model": {
+      "type": "OrderedDict",
+      "keys": [
+        "weight",
+        "bias"
+      ]
+    },
+    "0/optim": {
+      "type": "dict",
+      "keys": [
+        "state",
+        "param_groups"
+      ]
+    },
+    "0/optim/state": {
+      "type": "dict",
+      "keys": []
+    },
+    "0/optim/param_groups": {
+      "type": "list"
+    },
+    "0/optim/param_groups/0": {
+      "type": "dict",
+      "keys": [
+        "lr",
+        "betas",
+        "eps",
+        "weight_decay",
+        "amsgrad",
+        "maximize",
+        "foreach",
+        "capturable",
+        "differentiable",
+        "fused",
+        "params"
+      ]
+    },
+    "0/optim/param_groups/0/params": {
+      "type": "list"
+    },
+    "0/optim/param_groups/0/lr": {
+      "type": "float",
+      "serialized_value": "/Knx0k1iUD8=",
+      "replicated": false,
+      "readable": "0.001"
+    },
+    "0/optim/param_groups/0/eps": {
+      "type": "float",
+      "serialized_value": "Ooww4o55RT4=",
+      "replicated": false,
+      "readable": "1e-08"
+    },
+    "0/optim/param_groups/0/weight_decay": {
+      "type": "int",
+      "serialized_value": "0",
+      "replicated": false,
+      "readable": null
+    },
+    "0/optim/param_groups/0/amsgrad": {
+      "type": "bool",
+      "serialized_value": "False",
+      "replicated": false,
+      "readable": null
+    },
+    "0/optim/param_groups/0/maximize": {
+      "type": "bool",
+      "serialized_value": "False",
+      "replicated": false,
+      "readable": null
+    },
+    "0/optim/param_groups/0/capturable": {
+      "type": "bool",
+      "serialized_value": "False",
+      "replicated": false,
+      "readable": null
+    },
+    "0/optim/param_groups/0/differentiable": {
+      "type": "bool",
+      "serialized_value": "False",
+      "replicated": false,
+      "readable": null
+    },
+    "0/optim/param_groups/0/params/0": {
+      "type": "int",
+      "serialized_value": "0",
+      "replicated": false,
+      "readable": null
+    },
+    "0/optim/param_groups/0/params/1": {
+      "type": "int",
+      "serialized_value": "1",
+      "replicated": false,
+      "readable": null
+    },
+    "0/rng_state/rng_state": {
+      "type": "Tensor",
+      "location": "batched/023a3c36-fd34-4634-ad08-c93ce27d2726",
+      "serializer": "buffer_protocol",
+      "dtype": "torch.uint8",
+      "shape": [
+        5056
+      ],
+      "replicated": false,
+      "byte_range": [
+        0,
+        5056
+      ]
+    },
+    "0/model/weight": {
+      "type": "Tensor",
+      "location": "0/model/weight",
+      "serializer": "buffer_protocol",
+      "dtype": "torch.float32",
+      "shape": [
+        10000,
+        10000
+      ],
+      "replicated": false,
+      "byte_range": null
+    },
+    "0/model/bias": {
+      "type": "Tensor",
+      "location": "batched/c23d4e42-db6b-4c8d-9c7a-71abf8a04036",
+      "serializer": "buffer_protocol",
+      "dtype": "torch.float32",
+      "shape": [
+        10000
+      ],
+      "replicated": false,
+      "byte_range": [
+        0,
+        40000
+      ]
+    },
+    "0/optim/param_groups/0/betas": {
+      "type": "object",
+      "location": "0/optim/param_groups/0/betas",
+      "serializer": "torch_save",
+      "obj_type": "builtins.tuple",
+      "replicated": false
+    },
+    "0/optim/param_groups/0/foreach": {
+      "type": "object",
+      "location": "0/optim/param_groups/0/foreach",
+      "serializer": "torch_save",
+      "obj_type": "builtins.NoneType",
+      "replicated": false
+    },
+    "0/optim/param_groups/0/fused": {
+      "type": "object",
+      "location": "0/optim/param_groups/0/fused",
+      "serializer": "torch_save",
+      "obj_type": "builtins.NoneType",
+      "replicated": false
+    }
+  }
+}

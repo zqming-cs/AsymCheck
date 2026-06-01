@@ -1,0 +1,4 @@
+n19 slots=2
+n18 slots=2
+n16 slots=2
+n15 slots=2
