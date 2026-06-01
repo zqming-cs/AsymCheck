@@ -103,7 +103,7 @@ If you are using this repository for your paper, please cite our work
   title={AsymCheck: Asymmetric Partitioned Checkpointing for Efficient Large Language Model Training},
   author={Zhangqiang Ming and Yuchong Hu and Zhiyuan Luo and Patrick P.C. Lee and Yuanhao Shu and Wenxiang Zhou and Xinjue Zheng and Dan Feng},
   booktitle={Proceedings of the 63rd Design Automation Conference (DAC2026)},
-  url={https://doi.org/10.1145/xxxx.xxxx}
+  url={https://doi.org/10.1145/3770743.3803982}
   year={2026}
 }
 ```
